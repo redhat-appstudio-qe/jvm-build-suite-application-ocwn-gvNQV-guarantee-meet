@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-nvme
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:23795bcbe1a74a3a9276594228b9802e
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:d90742d04a0e92cb8819bbd9323e165e35c217f588af6322e1f16bff16452c19
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

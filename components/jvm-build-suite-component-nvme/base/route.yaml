@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-nvme
     app.kubernetes.io/part-of: jvm-build-suite-application-ocwn
-  name: jvm-build-suite-componentch5t
+  name: jvm-build-suite-componentw5iv
   namespace: jvm-build-tzhd-tenant
 spec:
   port:
