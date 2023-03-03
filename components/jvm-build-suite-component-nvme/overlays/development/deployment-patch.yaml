@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-nvme
+  namespace: jvm-build-tzhd-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:d90742d04a0e92cb8819bbd9323e165e35c217f588af6322e1f16bff16452c19
+        name: container-image
+        resources: {}
+status: {}
